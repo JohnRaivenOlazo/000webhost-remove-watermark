@@ -1,4 +1,4 @@
-# Watermark Remover
+# 000webhost Watermark Remover
 
 A JavaScript code for removing watermark from 000webhost.
 
