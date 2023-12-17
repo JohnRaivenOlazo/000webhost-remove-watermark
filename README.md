@@ -1,6 +1,21 @@
-# Simple Watermark Remover
+# Watermark Remover
 
-A basic watermark remover for 000webhost.
+A JavaScript code for removing watermarks from 000webhost.
 
 ## Usage
+
+### Quick Removal
+```javascript
 document.addEventListener('DOMContentLoaded', () => document.querySelector("img[alt='www.000webhost.com']").remove());
+```
+### Full Code
+```
+document.addEventListener('DOMContentLoaded', () => {
+  const watermark = document.querySelector("img[alt='www.000webhost.com']");
+  // Check if the image is present before removing
+  if (watermark) {
+    watermark.remove();
+  }
+});
+```
+
